@@ -204,7 +204,7 @@ document.querySelector('.container').addEventListener('click',e => {
         const curIDArr = curID.split('-')
         const type = curIDArr[0];
         const id = parseInt(curIDArr[1]);
-        if(confirm("Are you sure?"){
+        if(confirm("Are you sure?")){
         if (type === 'inc'){
             document.querySelector(`#${curID}`).parentElement.removeChild(document.querySelector(`#${curID}`));
         }
